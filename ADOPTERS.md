@@ -2,11 +2,7 @@
 
 A non-exhaustive list of containerd adopters is provided below.
 
-**_Docker/Moby engine_** - Containerd began life prior to its CNCF adoption as a lower-layer
-runtime manager for `runc` processes below the Docker engine. Continuing today, containerd
-has extremely broad production usage as a component of the [Docker engine](https://github.com/docker/docker-ce)
-stack. Note that this includes any use of the open source [Moby engine project](https://github.com/moby/moby);
-including the Balena project listed below.
+**_Docker/Moby engine_** - Containerd began life prior to its CNCF adoption as a lower-layer runtime manager for low-level OCI runtimes such as `runc` below the Docker engine. Continuing today, containerd has extremely broad production usage as a component of the <a href="https://github.com/docker/docker-ce">Docker engine</a> stack. Note that this includes any use of the open source <a href="https://github.com/moby/moby">Moby engine project</a>; including the Balena project listed below.
 
 **[faasd by OpenFaaS](https://github.com/openfaas/faasd)** - faasd in an Open Source project for serverless functions. It takes the same OpenFaaS components that usually run on Kubernetes and instead launches containers directly on a single host using CNI for networking. It's ideal for edge and for deploying functions without having to think about managing and maintaining Kubernetes.
 
